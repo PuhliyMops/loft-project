@@ -65,7 +65,7 @@ nav {
 
 main {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,4 +147,103 @@ main {
     background-repeat: no-repeat;
     width: 21px;
     height: 21px;
+}
+
+.features {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__inner {
+    text-align: center;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features__parks, .features__building, .features__fountain, .features__bicycle {
+    width: 20%;
+    height: 100%;
+}
+
+.bench__icon, .building__icon, .fountain__icon, .bicycle__icon {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50%;
+}
+
+.bench__icon {
+    background-image: url(./images/bench.svg);
+}
+
+.building__icon {
+    background-image: url(./images/building.svg);
+}
+
+.fountain__icon {
+    background-image: url(./images/fountain.svg);
+}
+
+.bicycle__icon {
+    background-image: url(./images/bicycle.svg);
+}
+
+.features__paragraph {
+    margin-top: 53px;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.main__flats {
+    width: 60%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.flats__heading {
+    color:#D4C17F;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+}
+
+.flats__inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner__flat__block {
+    width: 49%;
+    height: 90%;
+    background: linear-gradient(180deg, #242B33 0%, rgba(36, 43, 51, 0.00) 0.01%, #242B33 100%), 
+    url(./images/flat\ 1.png), 
+    lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.inner__flat__block > p {
+    margin: 2em;
 }
