@@ -401,7 +401,7 @@ footer {
 }
 
 .social__links {
-    width: 100%;
+    width: 50%;
     padding-left: 0;
     display: flex;
     list-style: none;
